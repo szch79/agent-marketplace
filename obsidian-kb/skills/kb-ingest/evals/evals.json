@@ -1,0 +1,53 @@
+{
+  "skill_name": "kb-ingest",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "/kb-ingest zotero darwiche11:sdd_new_canonical",
+      "expected_output": "A KB article about SDD created with zotero% citekey, core concepts, page references, and links to related notes.",
+      "files": [],
+      "expectations": [
+        "The note slug contains 'darwiche' and 'sdd'",
+        "The note has a citekey starting with zotero%",
+        "The article body defines SDD (Sentential Decision Diagram)",
+        "The article references vtrees",
+        "The article includes page references like (p. N)",
+        "The note was written to the vault",
+        "Related existing notes were found via semantic search",
+        "Wikilinks were added to reference related existing notes"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "/kb-ingest zotero darwiche02:knowledge_compilation_map",
+      "expected_output": "A KB article about knowledge compilation created with zotero% citekey, covering compilation targets (OBDD, DNNF, etc.), transformations, and succinctness results.",
+      "files": [],
+      "expectations": [
+        "The note slug contains 'darwiche' and 'knowledge-compilation'",
+        "The note has a citekey starting with zotero%",
+        "The article body defines knowledge compilation",
+        "The article mentions compilation targets (e.g., OBDD, DNNF, d-DNNF, FBDD)",
+        "The article includes page references like (p. N)",
+        "The note was written to the vault",
+        "Related existing notes were found via semantic search",
+        "Wikilinks were added to reference related existing notes"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "/kb-ingest zotero kimmig17:algebraic_model_counting",
+      "expected_output": "A KB article about algebraic model counting created with zotero% citekey, covering semirings, AMC framework, and connections to probabilistic inference.",
+      "files": [],
+      "expectations": [
+        "The note slug contains 'kimmig' and 'algebraic' or 'model-counting'",
+        "The note has a citekey starting with zotero%",
+        "The article body defines algebraic model counting",
+        "The article mentions semirings",
+        "The article includes page references like (p. N)",
+        "The note was written to the vault",
+        "Related existing notes were found via semantic search",
+        "Wikilinks were added to reference related existing notes"
+      ]
+    }
+  ]
+}

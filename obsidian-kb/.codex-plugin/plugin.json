@@ -1,0 +1,20 @@
+{
+  "name": "obsidian-kb",
+  "version": "0.1.0",
+  "description": "Knowledge base management via Obsidian vault for Claude Code and Codex",
+  "license": "GPL-3.0-only",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Obsidian KB",
+    "shortDescription": "Manage an Obsidian knowledge base",
+    "longDescription": "Ingest sources, distill conversation insights, refine articles, search notes, and check vault health in an Obsidian-backed knowledge base.",
+    "developerName": "szch79",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write", "Shell"],
+    "defaultPrompt": [
+      "Use Obsidian KB to ingest this source into my knowledge base.",
+      "Use Obsidian KB to find related notes before answering.",
+      "Use Obsidian KB to distill what we learned in this session."
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "KB Ingest"
+  short_description: "Ingest sources into Obsidian KB"
+  default_prompt: "Use $kb-ingest to ingest this source into my Obsidian knowledge base."
+
+policy:
+  allow_implicit_invocation: false

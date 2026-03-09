@@ -1,0 +1,19 @@
+{
+  "name": "lean4-skills-lite",
+  "version": "0.1.0",
+  "description": "Lightweight Lean 4 skills for library search and proof assistance",
+  "license": "GPL-3.0-only",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Lean 4 Skills Lite",
+    "shortDescription": "Search Lean 4 libraries",
+    "longDescription": "Search Lean 4 libraries such as Mathlib, Init, Std, and Batteries for lemmas, definitions, type patterns, and proof premises.",
+    "developerName": "szch79",
+    "category": "Developer Tools",
+    "capabilities": ["Read", "Shell", "Network"],
+    "defaultPrompt": [
+      "Use Lean 4 Skills Lite to find a Mathlib theorem for this goal.",
+      "Use Lean 4 Skills Lite to search Lean libraries for this type pattern."
+    ]
+  }
+}

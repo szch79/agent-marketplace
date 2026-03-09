@@ -1,0 +1,7 @@
+interface:
+  display_name: "Lean Search"
+  short_description: "Search Lean 4 libraries"
+  default_prompt: "Use $lean-search to find Lean 4 lemmas, definitions, or proof premises."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "KB Distill"
+  short_description: "Capture reusable session knowledge"
+  default_prompt: "Use $kb-distill to preserve the reusable knowledge from this conversation."
+
+policy:
+  allow_implicit_invocation: false

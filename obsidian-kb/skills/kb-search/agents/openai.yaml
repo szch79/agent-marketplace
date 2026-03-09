@@ -1,0 +1,7 @@
+interface:
+  display_name: "KB Search"
+  short_description: "Search Obsidian KB notes"
+  default_prompt: "Use $kb-search to find relevant notes in my knowledge base."
+
+policy:
+  allow_implicit_invocation: true

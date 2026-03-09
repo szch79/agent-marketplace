@@ -1,0 +1,9 @@
+{
+  "name": "lean4-skills-lite",
+  "version": "0.1.0",
+  "description": "Lightweight Lean 4 skills — library search, proof assistance",
+  "author": {
+    "name": "szch79"
+  },
+  "license": "GPL-3.0-only"
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "KB Refine"
+  short_description: "Deepen existing KB articles"
+  default_prompt: "Use $kb-refine to deepen an existing knowledge base article."
+
+policy:
+  allow_implicit_invocation: true

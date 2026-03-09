@@ -1,0 +1,7 @@
+interface:
+  display_name: "KB Health"
+  short_description: "Check Obsidian KB consistency"
+  default_prompt: "Use $kb-health to check my knowledge base for consistency issues."
+
+policy:
+  allow_implicit_invocation: true

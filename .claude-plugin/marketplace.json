@@ -1,0 +1,21 @@
+{
+  "name": "my-claude-marketplace",
+  "metadata": {
+    "description": "Custom agent skills for Obsidian knowledge-base workflows and Lean 4 library search."
+  },
+  "owner": {
+    "name": "szch79"
+  },
+  "plugins": [
+    {
+      "name": "lean4-skills-lite",
+      "description": "Lightweight Lean 4 skills — library search, proof assistance",
+      "source": "./lean4-skills-lite"
+    },
+    {
+      "name": "obsidian-kb",
+      "description": "Knowledge base management via Obsidian vault — ingest sources, distill conversation insights, refine articles, check vault health",
+      "source": "./obsidian-kb"
+    }
+  ]
+}

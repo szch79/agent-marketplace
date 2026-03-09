@@ -1,0 +1,23 @@
+{
+  "skill_name": "lean-search",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "I need a mathlib lemma about the sum of two even numbers being even",
+      "expected_output": "Uses leansearch curl recipe to find Even.add or Nat.even_add from mathlib, returns structured results with name and type",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "Search loogle for lemmas matching the type pattern (?a → ?b) → List ?a → List ?b",
+      "expected_output": "Uses loogle curl recipe with correct URL encoding to find List.map and related lemmas, returns name/type/module",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Find mathlib theorems related to commutativity of addition on natural numbers",
+      "expected_output": "Uses leanfinder or leansearch curl recipe to find Nat.add_comm and related theorems, returns meaningful results",
+      "files": []
+    }
+  ]
+}
